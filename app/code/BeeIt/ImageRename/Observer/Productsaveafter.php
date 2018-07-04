@@ -18,17 +18,21 @@ class Productsaveafter implements ObserverInterface
         $images=$_product->getMediaGalleryImages(); // for media gallery
         $helper = 0;
 
-    /*    foreach($images as $image){
+$t =123455;
+        foreach($images as $image){
 
             $label = $image->getLabel();
 
 
             $image->setLabel("Ucon_acrobatics_" . $_product->getName() . "_". $helper );
+            $image->setFile("//b/l/blu-logo-black-small_2.png");
 
-            $test = 123;
             $helper++;
         }
-    */
+        $t=1234;
+
+
+
 
     }
 }

@@ -3,4 +3,5 @@
     <event name="catalog_product_save_before">
         <observer name="test_name" instance="BeeIt\ImageRename\Observer\Productsaveafter" />
     </event>
+
 </config>
